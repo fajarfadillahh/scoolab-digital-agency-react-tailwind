@@ -20,17 +20,17 @@ const Header = () => {
         </Link>
 
         <div
-          className={`fixed top-20 right-[6%] w-[250px] origin-top-right rounded-[2rem] bg-gray-800 p-6 transition-all duration-400 ${
+          className={`fixed top-20 right-[6%] w-[250px] origin-top-right rounded-[2rem] bg-gray-800 p-6 transition-all duration-400 lg:static lg:top-0 lg:left-0 lg:flex lg:w-auto lg:scale-110 lg:items-center lg:gap-6 lg:bg-transparent lg:p-0  ${
             menuOpen ? "scale-110" : "scale-0"
           }`}
         >
-          <ul className="mb-6 flex flex-col">
+          <ul className="mb-6 flex flex-col lg:mb-0 lg:flex-row lg:gap-6">
             {HeaderLink.map((item, index) => {
               return (
                 <Link
                   key={index}
                   to={item.path}
-                  className="flex h-[55px] items-center rounded-full px-4 font-medium text-white hover:bg-gray-700"
+                  className="flex h-[55px] items-center rounded-full px-4 font-medium text-white hover:bg-gray-700 lg:h-auto lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-600"
                 >
                   {item.title}
                 </Link>
@@ -38,13 +38,13 @@ const Header = () => {
             })}
           </ul>
 
-          <Link to="/" className="btn btn-fill w-full">
+          <Link to="/" className="btn btn-fill flex">
             Let's talk
           </Link>
         </div>
 
         <div
-          className="inline-flex cursor-pointer p-1 text-[1.3rem] text-white"
+          className="inline-flex cursor-pointer p-1 text-[1.3rem] text-white lg:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <RiCloseFill /> : <RiMenu3Fill />}

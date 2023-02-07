@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
 
@@ -6,11 +6,26 @@ import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
 import { HeaderLink } from "../Data";
 
 const Header = () => {
-  // menu open state
+  // menu open & sticky header state
   const [menuOpen, setMenuOpen] = useState(false);
+  const [stickyHeader, setStickyHeader] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 5) {
+        setStickyHeader(true);
+      } else {
+        setStickyHeader(false);
+      }
+    });
+  });
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full">
+    <header
+      className={`fixed top-0 left-0 z-50 w-full transition-all duration-400 ${
+        stickyHeader ? "bg-gray-900/80 backdrop-blur-lg" : "bg-transparent"
+      }`}
+    >
       <div className="container flex h-24 items-center justify-between">
         <Link
           to="/"

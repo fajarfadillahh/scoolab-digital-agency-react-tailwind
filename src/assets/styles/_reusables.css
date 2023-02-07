@@ -1,0 +1,31 @@
+@layer components {
+  /* container class */
+  .container {
+    @apply mx-auto w-[calc(100%-3rem)] max-w-[1200px];
+  }
+
+  /* section class */
+  .section {
+    @apply pt-24 pb-16;
+  }
+  .section-eyebrow {
+    @apply pb-3 font-medium leading-text -tracking-[0.9px] text-blue-600;
+  }
+  .section-title {
+    @apply pb-3 font-title text-[56px] font-semibold leading-title text-white;
+  }
+  .section-text {
+    @apply font-medium leading-text -tracking-[0.9px] text-white;
+  }
+
+  /* button class */
+  .btn {
+    @apply inline-flex h-[55px] items-center justify-center rounded-full py-4 px-8 font-semibold -tracking-[0.9px] transition;
+  }
+  .btn-fill {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+  .btn-outline {
+    @apply border-[1.5px] border-blue-600 text-blue-600 hover:bg-blue-700 hover:text-white;
+  }
+}

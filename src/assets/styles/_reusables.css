@@ -20,12 +20,15 @@
 
   /* button class */
   .btn {
-    @apply inline-flex h-[55px] items-center justify-center rounded-full py-4 px-8 font-semibold -tracking-[0.9px] transition;
+    @apply inline-flex h-[55px] items-center justify-center gap-3 rounded-full py-4 px-8 font-semibold -tracking-[0.9px] transition;
   }
   .btn-fill {
     @apply bg-blue-600 text-white hover:bg-blue-700;
   }
   .btn-outline {
     @apply border-[1.5px] border-blue-600 text-blue-600 hover:bg-blue-700 hover:text-white;
+  }
+  .btn-icon {
+    @apply inline-flex text-[1.5rem];
   }
 }

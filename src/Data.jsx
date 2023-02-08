@@ -9,8 +9,11 @@ import TeamImg1 from "./assets/images/team-img-1.png";
 import TeamImg2 from "./assets/images/team-img-2.png";
 import TeamImg3 from "./assets/images/team-img-3.png";
 import TeamImg4 from "./assets/images/team-img-4.png";
+import TestimonialProfile1 from "./assets/images/testimonial-profile-1.png";
+import TestimonialProfile2 from "./assets/images/testimonial-profile-2.png";
 
 // import icons
+import { RiStarFill } from "react-icons/ri";
 import ServiceIcon1 from "./assets/images/icons/service-icon-1.png";
 import ServiceIcon2 from "./assets/images/icons/service-icon-2.png";
 import ServiceIcon3 from "./assets/images/icons/service-icon-3.png";
@@ -137,5 +140,64 @@ export const TeamData = [
     image: TeamImg4,
     name: "Bella William",
     profession: "UI/UX Designer",
+  },
+];
+
+export const TestimonialData = [
+  {
+    comment:
+      "I;m trusted my company in allies and the results have been satisfyiing, because my company has growing.",
+    profileImg: TestimonialProfile1,
+    name: "Mika Wolff",
+    profession: "Product Manager",
+    rating: [
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+    ],
+  },
+  {
+    comment:
+      "I;m trusted my company in allies and the results have been satisfyiing, because my company has growing.",
+    profileImg: TestimonialProfile2,
+    name: "Bryan Rop",
+    profession: "Graphic Designer",
+    rating: [
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+    ],
+  },
+  {
+    comment:
+      "I;m trusted my company in allies and the results have been satisfyiing, because my company has growing.",
+    profileImg: TestimonialProfile1,
+    name: "Ashley Smith",
+    profession: "Frontend Developer",
+    rating: [
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+    ],
+  },
+  {
+    comment:
+      "I;m trusted my company in allies and the results have been satisfyiing, because my company has growing.",
+    profileImg: TestimonialProfile2,
+    name: "Chico McKinley",
+    profession: "Software Engineer",
+    rating: [
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+      <RiStarFill />,
+    ],
   },
 ];

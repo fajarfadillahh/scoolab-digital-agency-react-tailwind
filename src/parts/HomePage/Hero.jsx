@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="section relative">
       {/* gradient */}
-      <div className="absolute -top-[15%] right-[40%] h-[500px] w-[500px] rounded-full bg-gradient-to-r from-pink-600 to-yellow-200 blur-[100px]" />
+      <div className="absolute -top-[100px] right-[130px] h-[500px] w-[500px] rounded-full bg-gradient-to-r from-pink-600 to-yellow-200 blur-[100px]" />
 
       <div className="container relative grid gap-12">
         <div className="z-10 text-center">

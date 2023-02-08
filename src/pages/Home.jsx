@@ -6,6 +6,7 @@ import Services from "../components/Services";
 
 // import parts
 import Hero from "../parts/HomePage/Hero";
+import About from "../parts/HomePage/About";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Header />
         <Hero />
         <Services />
+        <About />
 
         <div className="h-[3000px]" />
       </div>

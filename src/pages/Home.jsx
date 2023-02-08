@@ -7,6 +7,7 @@ import Experienced from "../components/Experienced";
 import Portfolio from "../components/Portfolio";
 import Testimonial from "../components/Testimonial";
 import Subscribe from "../components/Subscribe";
+import Footer from "../components/Footer";
 
 // import parts
 import Hero from "../parts/HomePage/Hero";
@@ -26,8 +27,7 @@ const Home = () => {
         <Team />
         <Testimonial />
         <Subscribe />
-
-        <div className="h-[3000px]" />
+        <Footer />
       </div>
     </>
   );

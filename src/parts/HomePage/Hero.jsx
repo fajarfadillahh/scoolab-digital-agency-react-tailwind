@@ -7,7 +7,7 @@ import HeroImg1 from "../../assets/images/hero-img-1.png";
 
 const Hero = () => {
   return (
-    <section className="section relative">
+    <section className="section relative pt-32">
       {/* gradient */}
       <div className="absolute -top-[100px] right-[130px] h-[500px] w-[500px] rounded-full bg-gradient-to-r from-pink-600 to-yellow-200 blur-[100px]" />
 

@@ -35,7 +35,7 @@ const Header = () => {
         </Link>
 
         <div
-          className={`fixed top-20 right-[6%] w-[250px] origin-top-right rounded-[2rem] bg-gray-800 p-6 transition-all duration-400 lg:static lg:top-0 lg:left-0 lg:flex lg:w-auto lg:scale-110 lg:items-center lg:gap-6 lg:bg-transparent lg:p-0  ${
+          className={`fixed top-20 right-[6%] w-[230px] origin-top-right rounded-[2rem] bg-gray-800 p-6 transition-all duration-400 lg:static lg:top-0 lg:left-0 lg:flex lg:w-auto lg:scale-110 lg:items-center lg:gap-6 lg:bg-transparent lg:p-0  ${
             menuOpen ? "scale-110" : "scale-0"
           }`}
         >

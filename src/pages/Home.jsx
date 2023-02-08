@@ -6,6 +6,7 @@ import Services from "../components/Services";
 import Experienced from "../components/Experienced";
 import Portfolio from "../components/Portfolio";
 import Testimonial from "../components/Testimonial";
+import Subscribe from "../components/Subscribe";
 
 // import parts
 import Hero from "../parts/HomePage/Hero";
@@ -24,6 +25,7 @@ const Home = () => {
         <Portfolio />
         <Team />
         <Testimonial />
+        <Subscribe />
 
         <div className="h-[3000px]" />
       </div>

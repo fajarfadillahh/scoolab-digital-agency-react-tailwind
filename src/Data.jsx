@@ -1,3 +1,11 @@
+// import images
+import PortfolioImg1 from "./assets/images/portfolio-img-1.png";
+import PortfolioImg2 from "./assets/images/portfolio-img-2.png";
+import PortfolioImg3 from "./assets/images/portfolio-img-3.png";
+import PortfolioImg4 from "./assets/images/portfolio-img-4.png";
+import PortfolioImg5 from "./assets/images/portfolio-img-5.png";
+import PortfolioImg6 from "./assets/images/portfolio-img-6.png";
+
 // import icons
 import ServiceIcon1 from "./assets/images/icons/service-icon-1.png";
 import ServiceIcon2 from "./assets/images/icons/service-icon-2.png";
@@ -69,5 +77,38 @@ export const ExperienceData = [
     number: "03",
     title: "We're Helpful",
     text: "We love to help clients to achieve their online goals.",
+  },
+];
+
+export const PortfolioData = [
+  {
+    image: PortfolioImg1,
+    subtitle: "Design Kit",
+    title: "Portfolio Deck",
+  },
+  {
+    image: PortfolioImg2,
+    subtitle: "Design System",
+    title: "Pegasus Design System",
+  },
+  {
+    image: PortfolioImg3,
+    subtitle: "Mobile App Design",
+    title: "Food Delivery App",
+  },
+  {
+    image: PortfolioImg4,
+    subtitle: "UI Kit Design",
+    title: "IOS 15 UI Kit",
+  },
+  {
+    image: PortfolioImg5,
+    subtitle: "Icon Design",
+    title: "Coolicons Iconset",
+  },
+  {
+    image: PortfolioImg6,
+    subtitle: "Mobile App Design",
+    title: "Mental Health App",
   },
 ];

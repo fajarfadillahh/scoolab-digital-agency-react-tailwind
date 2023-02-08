@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Experienced from "../components/Experienced";
+import Portfolio from "../components/Portfolio";
 
 // import parts
 import Hero from "../parts/HomePage/Hero";
@@ -18,6 +19,7 @@ const Home = () => {
         <Services />
         <About />
         <Experienced />
+        <Portfolio />
 
         <div className="h-[3000px]" />
       </div>

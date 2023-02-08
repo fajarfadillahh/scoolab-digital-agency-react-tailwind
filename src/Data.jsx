@@ -53,3 +53,21 @@ export const ServiceData = [
     text: "Our creative team made a great and beautiful apps.",
   },
 ];
+
+export const ExperienceData = [
+  {
+    number: "01",
+    title: "26+ Years",
+    text: "We have been in industry for more 26 years experiences.",
+  },
+  {
+    number: "02",
+    title: "Creative Team",
+    text: "We the best creative team that bring the ideas to ideas.",
+  },
+  {
+    number: "03",
+    title: "We're Helpful",
+    text: "We love to help clients to achieve their online goals.",
+  },
+];

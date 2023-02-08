@@ -82,19 +82,19 @@ const Footer = () => {
               </p>
               <div className="inline-flex items-center gap-2">
                 <Link to="/" className="inline-flex p-1">
-                  <RiInstagramFill className="text-[1.8rem] text-white" />
+                  <RiInstagramFill className="text-[1.8rem] text-white hover:text-blue-600" />
                 </Link>
                 <Link to="/" className="inline-flex p-1">
-                  <RiTwitterFill className="text-[1.8rem] text-white" />
+                  <RiTwitterFill className="text-[1.8rem] text-white hover:text-blue-600" />
                 </Link>
                 <Link to="/" className="inline-flex p-1">
-                  <RiTwitchFill className="text-[1.8rem] text-white" />
+                  <RiTwitchFill className="text-[1.8rem] text-white hover:text-blue-600" />
                 </Link>
                 <Link to="/" className="inline-flex p-1">
-                  <RiYoutubeFill className="text-[1.8rem] text-white" />
+                  <RiYoutubeFill className="text-[1.8rem] text-white hover:text-blue-600" />
                 </Link>
                 <Link to="/" className="inline-flex p-1">
-                  <RiGithubFill className="text-[1.8rem] text-white" />
+                  <RiGithubFill className="text-[1.8rem] text-white hover:text-blue-600" />
                 </Link>
               </div>
             </div>

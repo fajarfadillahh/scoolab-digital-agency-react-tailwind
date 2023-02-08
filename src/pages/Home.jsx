@@ -9,6 +9,7 @@ import Portfolio from "../components/Portfolio";
 // import parts
 import Hero from "../parts/HomePage/Hero";
 import About from "../parts/HomePage/About";
+import Team from "../parts/HomePage/Team";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <About />
         <Experienced />
         <Portfolio />
+        <Team />
 
         <div className="h-[3000px]" />
       </div>

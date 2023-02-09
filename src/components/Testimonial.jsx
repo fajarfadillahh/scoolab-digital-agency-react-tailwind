@@ -10,13 +10,13 @@ import TestimonialIcon from "../assets/images/icons/icon-falling-star.png";
 const Testimonial = () => {
   return (
     <section className="section relative">
-      <div className="container grid gap-12">
+      <div className="container grid gap-12 xl:max-w-4xl xl:grid-cols-[0.6fr_1fr] xl:items-center 2xl:max-w-6xl">
         {/* testimonial data */}
-        <div className="justify-self-center text-center">
+        <div className="text-center xl:text-left">
           <img
             src={TestimonialIcon}
             alt="testimonial icon"
-            className="mx-auto w-20 pb-4"
+            className="mx-auto w-20 pb-4 xl:m-0"
           />
           <p className="section-subtitle">Testimonials</p>
           <h1 className="section-title pb-0">
@@ -28,7 +28,7 @@ const Testimonial = () => {
         </div>
 
         {/* testimonial group */}
-        <div className="grid grid-cols-[280px] justify-center gap-8">
+        <div className="grid grid-cols-[280px] justify-center gap-8 sm:mx-auto sm:max-w-xl sm:grid-cols-2 2xl:max-w-2xl">
           {TestimonialData.slice(0, 2).map((item, index) => {
             // destructure item
             const { comment, profileImg, name, profession, rating } = item;

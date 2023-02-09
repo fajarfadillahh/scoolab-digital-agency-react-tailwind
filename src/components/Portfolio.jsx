@@ -15,9 +15,9 @@ const Portfolio = () => {
   return (
     <section className="section relative">
       {/* gradient */}
-      <div className="absolute top-[500px] -right-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-yellow-300 to-green-300 blur-[130px]" />
+      <div className="absolute top-[500px] -right-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-yellow-300 to-green-300 blur-[130px] 2xl:top-[100px] 2xl:-right-[350px] 2xl:h-[600px] 2xl:w-[600px]" />
 
-      <div className="container relative grid gap-12">
+      <div className="container relative grid gap-12 2xl:max-w-6xl">
         {/* portfolio data */}
         <div className="justify-self-center text-center">
           <img
@@ -37,7 +37,7 @@ const Portfolio = () => {
         </div>
 
         {/* portfolio group */}
-        <div className="grid justify-center gap-8">
+        <div className="grid justify-center gap-8 lg:mx-auto lg:max-w-4xl lg:grid-cols-2 2xl:max-w-max">
           {PortfolioData.map((item, index) => {
             // destructure item
             const { image, subtitle, title } = item;

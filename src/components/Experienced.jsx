@@ -15,7 +15,7 @@ const Experienced = () => {
   return (
     <div className="section relative">
       {/* gradient */}
-      <div className="absolute top-[500px] -left-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-pink-600 to-yellow-200 blur-[130px] 2xl:top-[100px] 2xl:-left-[350px] 2xl:h-[600px] 2xl:w-[600px]" />
+      <div className="absolute top-[500px] -left-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-t from-pink-600 to-yellow-200 blur-[130px] 2xl:top-[100px] 2xl:-left-[350px] 2xl:h-[600px] 2xl:w-[600px]" />
 
       <div className="container relative grid gap-12 sm:mx-auto sm:max-w-2xl lg:max-w-3xl 2xl:max-w-6xl">
         {/* experience data */}

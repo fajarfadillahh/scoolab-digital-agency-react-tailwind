@@ -13,7 +13,7 @@ const Team = () => {
   return (
     <section className="section relative">
       {/* gradient */}
-      <div className="absolute top-[500px] -left-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-purple-500 to-blue-300 blur-[130px] 2xl:top-[100px] 2xl:-left-[350px] 2xl:h-[600px] 2xl:w-[600px]" />
+      <div className="absolute top-[500px] -left-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-t from-purple-500 to-blue-300 blur-[130px] 2xl:top-[100px] 2xl:-left-[350px] 2xl:h-[600px] 2xl:w-[600px]" />
 
       <div className="container relative grid gap-12 2xl:max-w-6xl">
         {/* team data */}

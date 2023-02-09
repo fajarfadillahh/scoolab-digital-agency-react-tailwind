@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <section className="section relative">
       {/* gradient */}
-      <div className="absolute top-[500px] -right-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-yellow-300 to-green-300 blur-[130px] 2xl:top-[100px] 2xl:-right-[350px] 2xl:h-[600px] 2xl:w-[600px]" />
+      <div className="absolute top-[500px] -right-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-t from-yellow-300 to-green-300 blur-[130px] 2xl:top-[100px] 2xl:-right-[350px] 2xl:h-[600px] 2xl:w-[600px]" />
 
       <div className="container relative grid gap-12 2xl:max-w-6xl">
         {/* portfolio data */}

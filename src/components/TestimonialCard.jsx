@@ -1,5 +1,4 @@
 import React from "react";
-import { RiStarFill } from "react-icons/ri";
 
 // import icon
 import CommaIcon from "../assets/images/icons/icon-comma.png";

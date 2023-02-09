@@ -20,7 +20,7 @@ const Hero = () => {
             <span className="relative">
               digital
               <div className="absolute bottom-3 left-0 -z-10 h-3 w-full rounded-full bg-blue-600" />
-            </span>
+            </span>{" "}
             products
             <br />
             creators<span className="teblu6">.</span>
@@ -38,7 +38,7 @@ const Hero = () => {
         <img
           src={HeroImg1}
           alt="hero img"
-          className="justify-self-center 2xl:w-[1152px]"
+          className="justify-self-center 2xl:w-[1080px]"
         />
       </div>
     </section>

@@ -13,7 +13,7 @@ const Hero = () => {
 
       <div className="container relative grid gap-12 sm:mx-auto sm:max-w-xl lg:max-w-5xl lg:grid-cols-2 lg:items-center 2xl:max-w-6xl">
         <div className="text-center lg:text-left">
-          <h1 className="section-title text-[64px] lg:text-[72px]">
+          <h1 className="section-title xs:text-[64px] lg:text-[72px]">
             We make strategies, design & development
             <span className="text-blue-600">.</span>
           </h1>

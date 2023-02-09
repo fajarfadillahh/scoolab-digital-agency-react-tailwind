@@ -8,6 +8,7 @@ import Portfolio from "../components/Portfolio";
 import Testimonial from "../components/Testimonial";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
 import ScrollUp from "../components/ScrollUp";
 
 // import parts
@@ -30,6 +31,7 @@ const Home = () => {
         <Testimonial />
         <Subscribe />
         <Footer />
+        <ScrollToTop />
       </div>
     </>
   );

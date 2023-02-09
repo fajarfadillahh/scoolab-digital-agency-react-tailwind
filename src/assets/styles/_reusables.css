@@ -12,7 +12,7 @@
     @apply pb-3 font-medium leading-text -tracking-[0.9px] text-blue-600;
   }
   .section-title {
-    @apply pb-3 font-title text-[48px] font-semibold leading-title text-white;
+    @apply pb-3 font-title text-[48px] font-semibold leading-title text-white sm:text-[56px];
   }
   .section-text {
     @apply font-medium leading-text -tracking-[0.9px] text-white;

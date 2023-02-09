@@ -19,7 +19,6 @@ const WhatWeDo = () => {
         <Header />
         <Hero />
         <Services />
-        <Experienced />
         <Subscribe />
         <Footer />
         <ScrollUp />

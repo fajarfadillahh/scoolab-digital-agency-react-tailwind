@@ -14,7 +14,7 @@ const Hero = () => {
 
       <div className="container relative grid gap-12 sm:mx-auto sm:max-w-2xl lg:max-w-4xl 2xl:max-w-6xl">
         <div className="z-10 text-center">
-          <h1 className="section-title text-[64px] lg:text-[72px]">
+          <h1 className="section-title text-[64px] lg:text-[72px] 2xl:text-[96px]">
             We're
             <br />
             <span className="relative">
@@ -23,7 +23,7 @@ const Hero = () => {
             </span>{" "}
             products
             <br />
-            creators<span className="teblu6">.</span>
+            creators<span className="text-blue-600">.</span>
           </h1>
           <p className="section-text pb-8">
             Proper business solution for your business <br />

@@ -12,10 +12,10 @@ const NotFound = () => {
   return (
     <>
       <div className="-z-50 mx-auto max-w-[1440px] overflow-hidden bg-gray-900">
-        <ScrollUp />
         <Header />
         <NotFoundMessage />
         <Footer />
+        <ScrollUp />
       </div>
     </>
   );

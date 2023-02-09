@@ -8,8 +8,8 @@ import Portfolio from "../components/Portfolio";
 import Testimonial from "../components/Testimonial";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
-import ScrollToTop from "../components/ScrollToTop";
 import ScrollUp from "../components/ScrollUp";
+import ScrollToTop from "../components/ScrollToTop";
 
 // import parts
 import Hero from "../parts/HomePage/Hero";
@@ -20,7 +20,6 @@ const Home = () => {
   return (
     <>
       <div className="-z-50 mx-auto max-w-[1440px] overflow-hidden bg-gray-900">
-        <ScrollUp />
         <Header />
         <Hero />
         <Services />
@@ -31,6 +30,7 @@ const Home = () => {
         <Testimonial />
         <Subscribe />
         <Footer />
+        <ScrollUp />
         <ScrollToTop />
       </div>
     </>

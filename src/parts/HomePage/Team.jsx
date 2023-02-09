@@ -12,7 +12,10 @@ import TeamIcon from "../../assets/images/icons/icon-color-palette.png";
 const Team = () => {
   return (
     <section className="section relative">
-      <div className="container grid gap-12">
+      {/* gradient */}
+      <div className="absolute top-[500px] -left-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-purple-500 to-blue-300 blur-[130px]" />
+
+      <div className="container relative grid gap-12">
         {/* team data */}
         <div className="justify-self-center text-center">
           <img src={TeamIcon} alt="team icon" className="mx-auto w-20 pb-4" />

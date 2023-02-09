@@ -9,7 +9,10 @@ import ServiceCard from "./ServiceCard";
 const Services = () => {
   return (
     <section className="section relative">
-      <div className="container grid gap-12">
+      {/* gradient */}
+      <div className="absolute top-[500px] -left-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-t from-yellow-300 to-green-400/90 blur-[130px]" />
+
+      <div className="container relative grid gap-12">
         {/* service data */}
         <div className="justify-self-center text-center">
           <p className="section-subtitle">What we do?</p>

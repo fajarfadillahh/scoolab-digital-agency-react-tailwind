@@ -6,7 +6,10 @@ import SubscribeIcon from "../assets/images/icons/icon-postbox.png";
 const Subscribe = () => {
   return (
     <section className="section relative">
-      <div className="container grid gap-8">
+      {/* gradient */}
+      <div className="absolute top-[200px] -right-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-pink-400 to-yellow-400 blur-[130px]" />
+
+      <div className="container relative grid gap-8">
         {/* subscribe data */}
         <div className="justify-self-center text-center">
           <img

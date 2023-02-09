@@ -9,7 +9,10 @@ import AboutIcon from "../../assets/images/icons/icon-color-palette.png";
 const About = () => {
   return (
     <section className="section relative">
-      <div className="container grid justify-items-center gap-12">
+      {/* gradient */}
+      <div className="absolute top-[400px] -right-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-t from-pink-300 to-purple-400 blur-[130px]" />
+
+      <div className="container relative grid justify-items-center gap-12">
         <img src={AboutImg} alt="about img" />
 
         <div className="text-center">

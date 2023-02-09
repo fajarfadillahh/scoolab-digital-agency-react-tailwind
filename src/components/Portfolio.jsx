@@ -14,7 +14,10 @@ import PortfolioIcon from "../assets/images/icons/icon-web-design.png";
 const Portfolio = () => {
   return (
     <section className="section relative">
-      <div className="container grid gap-12">
+      {/* gradient */}
+      <div className="absolute top-[500px] -right-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-yellow-300 to-green-300 blur-[130px]" />
+
+      <div className="container relative grid gap-12">
         {/* portfolio data */}
         <div className="justify-self-center text-center">
           <img

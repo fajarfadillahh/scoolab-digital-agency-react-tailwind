@@ -14,7 +14,10 @@ import ExperienceIcon from "../assets/images/icons/icon-idea-bulb.png";
 const Experienced = () => {
   return (
     <div className="section relative">
-      <div className="container grid gap-12">
+      {/* gradient */}
+      <div className="absolute top-[500px] -left-[250px] h-[400px] w-[400px] rounded-full bg-gradient-to-r from-pink-600 to-yellow-200 blur-[130px]" />
+
+      <div className="container relative grid gap-12">
         {/* experience data */}
         <div className="justify-self-center text-center">
           <img

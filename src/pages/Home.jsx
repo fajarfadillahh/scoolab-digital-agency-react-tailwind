@@ -17,7 +17,7 @@ import Team from "../parts/HomePage/Team";
 const Home = () => {
   return (
     <>
-      <div className="-z-50 overflow-hidden bg-gray-900">
+      <div className="-z-50 mx-auto max-w-[1440px] overflow-hidden bg-gray-900">
         <Header />
         <Hero />
         <Services />

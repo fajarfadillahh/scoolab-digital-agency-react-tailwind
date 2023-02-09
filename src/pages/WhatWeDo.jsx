@@ -3,7 +3,6 @@ import React from "react";
 // import components
 import Header from "../components/Header";
 import Services from "../components/Services";
-import Experienced from "../components/Experienced";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
 import ScrollUp from "../components/ScrollUp";

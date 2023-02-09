@@ -8,7 +8,10 @@ import HeroImg from "../../assets/images/hero-img-2.png";
 const Hero = () => {
   return (
     <section className="section relative pt-40">
-      <div className="container grid gap-12">
+      {/* gradient */}
+      <div className="absolute -top-[40px] -right-[150px] h-[400px] w-[400px] rounded-full bg-gradient-to-t from-pink-600 to-green-400 blur-[130px] 2xl:-bottom-[30px] 2xl:h-[600px] 2xl:w-[600px]" />
+
+      <div className="container relative grid gap-12">
         <div className="text-center">
           <h1 className="section-title">
             We make strategies, design & development

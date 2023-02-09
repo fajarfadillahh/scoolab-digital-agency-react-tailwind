@@ -12,13 +12,13 @@ const Footer = () => {
   return (
     <footer className="pt-24">
       <div className="bg-gray-800 pt-24 pb-8">
-        <div className="container grid gap-32">
-          <div className="grid gap-12">
+        <div className="container grid gap-32 2xl:max-w-6xl">
+          <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:justify-between">
             <div>
               <h1 className="pb-3 font-title text-[28px] font-semibold text-white">
                 ScooLab<span className="text-blue-600">.</span>
               </h1>
-              <p className="section-text w-[280px]">
+              <p className="section-text max-w-[280px]">
                 Scoolab is a digital agency that has evolved to meet the
                 changing needs of marketing in the digital age.
               </p>

@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 
 // import parts
 import Hero from "../parts/OurServices/Hero";
+import Capabilities from "../parts/OurServices/Capabilities";
 
 const OurServices = () => {
   return (
@@ -16,6 +17,7 @@ const OurServices = () => {
       <div className="-z-50 mx-auto max-w-[1440px] overflow-hidden bg-gray-900">
         <Header />
         <Hero />
+        <Capabilities />
         <Experienced />
         <Testimonial />
         <Subscribe />

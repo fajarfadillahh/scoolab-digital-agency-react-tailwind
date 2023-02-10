@@ -201,3 +201,26 @@ export const TestimonialData = [
     ],
   },
 ];
+
+export const CapabilitiesData = [
+  {
+    subtitle: "Strategy",
+    title: "Full-stack enterprise media management",
+    text: "Regulatory oneven an enterprise such she and the got the did attributing and pushed. We recently have 36 active media campaigns across 24 projects.",
+  },
+  {
+    subtitle: "Design",
+    title: "UI/UX design website & Mobile app design",
+    text: "A higher spacing and movements through and impactful email campaigns. Creating a portfolio budgeting in a real time planning and phasing.",
+  },
+  {
+    subtitle: "Marketing",
+    title: "Marketing, campaigns & content creators",
+    text: "Makign a short time up to date email campaigns to achieve a real impact.",
+  },
+  {
+    subtitle: "Analytics",
+    title: "Google analytics & measurement",
+    text: "Spaces of each debt in the digital world can help you with overall simplest authentic. Get an utilitize of structure to tackle complex issues and changes.",
+  },
+];

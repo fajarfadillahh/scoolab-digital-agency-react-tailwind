@@ -220,7 +220,7 @@ export const CapabilitiesData = [
   },
   {
     subtitle: "Analytics",
-    title: "Google analytics & measurement",
+    title: "Google analytics, planning & measurement",
     text: "Spaces of each debt in the digital world can help you with overall simplest authentic. Get an utilitize of structure to tackle complex issues and changes.",
   },
 ];

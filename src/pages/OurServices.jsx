@@ -6,6 +6,8 @@ import Experienced from "../components/Experienced";
 import Testimonial from "../components/Testimonial";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
+import ScrollUp from "../components/ScrollUp";
+import ScrollToTop from "../components/ScrollToTop";
 
 // import parts
 import Hero from "../parts/OurServices/Hero";
@@ -22,6 +24,8 @@ const OurServices = () => {
         <Testimonial />
         <Subscribe />
         <Footer />
+        <ScrollUp />
+        <ScrollToTop />
       </div>
     </>
   );

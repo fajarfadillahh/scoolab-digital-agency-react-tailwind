@@ -10,6 +10,7 @@ import ScrollToTop from "../components/ScrollToTop";
 // import parts
 import Hero from "../parts/Pricing/Hero";
 import Plans from "../parts/Pricing/Plans";
+import Faq from "../parts/Pricing/Faq";
 
 const Pricing = () => {
   return (
@@ -18,6 +19,7 @@ const Pricing = () => {
         <Header />
         <Hero />
         <Plans />
+        <Faq />
         <Subscribe />
         <Footer />
         <ScrollUp />

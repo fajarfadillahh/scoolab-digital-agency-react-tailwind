@@ -263,3 +263,31 @@ export const PlanList = [
     ],
   },
 ];
+
+export const AccordionData = [
+  {
+    question: "Do your applications support timestamps?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+  },
+  {
+    question: "Does the system support data extraction for invoice items?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+  },
+  {
+    question: "How is data security addressed in ScooLab?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+  },
+  {
+    question: "How log does it take to extract invoice data?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+  },
+  {
+    question: "How is the demo account, is the free trial account?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+  },
+];

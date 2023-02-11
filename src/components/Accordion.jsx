@@ -14,7 +14,7 @@ const Accordion = ({ question, answer }) => {
           {question}
         </h3>
         <div
-          className={`inline-flex text-[1.8rem] text-white transition-all duration-400 ${
+          className={`inline-flex text-[1.8rem] text-white ${
             isOpen ? "rotate-180" : "rotate-0"
           }`}
         >
@@ -22,12 +22,8 @@ const Accordion = ({ question, answer }) => {
         </div>
       </div>
 
-      <div
-        className={`max-h-0 overflow-hidden transition-all duration-400 ${
-          isOpen ? "mt-6 min-h-[100px] sm:min-h-[80px]" : "mt-0 min-h-0"
-        }`}
-      >
-        <p className="section-text text-[14px] sm:text-[16px] xl:max-w-3xl">
+      <div className={`overflow-hidden ${isOpen ? "max-h-full" : "max-h-0"}`}>
+        <p className="section-text mt-6 text-[14px] sm:text-[16px] xl:max-w-3xl">
           {answer}
         </p>
       </div>

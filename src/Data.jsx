@@ -224,3 +224,42 @@ export const CapabilitiesData = [
     text: "Spaces of each debt in the digital world can help you with overall simplest authentic. Get an utilitize of structure to tackle complex issues and changes.",
   },
 ];
+
+export const PlanList = [
+  {
+    grade: "Basic",
+    price: "19$",
+    text: "For most business that want to optimize web queries.",
+    list: [
+      { name: "All limited links." },
+      { name: "Own analytics platform." },
+      { name: "Chat support." },
+      { name: "Optimize hastags." },
+      { name: "Unlimited users." },
+    ],
+  },
+  {
+    grade: "Popular",
+    price: "39$",
+    text: "For most business that want to optimize web queries.",
+    list: [
+      { name: "All limited links." },
+      { name: "Own analytics platform." },
+      { name: "Chat support." },
+      { name: "Optimize hastags." },
+      { name: "Unlimited users." },
+    ],
+  },
+  {
+    grade: "Premium",
+    price: "199$",
+    text: "For most business that want to optimize web queries.",
+    list: [
+      { name: "All limited links." },
+      { name: "Own analytics platform." },
+      { name: "Chat support." },
+      { name: "Optimize hastags." },
+      { name: "Unlimited users." },
+    ],
+  },
+];

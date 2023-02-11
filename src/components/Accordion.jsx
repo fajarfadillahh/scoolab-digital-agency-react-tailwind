@@ -6,11 +6,11 @@ const Accordion = ({ question, answer }) => {
 
   return (
     <div
-      className="cursor-pointer rounded-[1.5rem] border-[1.5px] border-white/50 p-6"
+      className="cursor-pointer rounded-[1.2rem] border-[1.5px] border-white/50 p-6"
       onClick={() => setisOpen(!isOpen)}
     >
       <div className="flex items-center justify-between gap-4">
-        <h3 className="font-title text-[18px] font-semibold text-white">
+        <h3 className="font-title text-[18px] font-semibold text-white sm:text-[24px] xl:text-[30px]">
           {question}
         </h3>
         <div
@@ -24,10 +24,12 @@ const Accordion = ({ question, answer }) => {
 
       <div
         className={`max-h-0 overflow-hidden transition-all duration-400 ${
-          isOpen ? "mt-6 min-h-[100px]" : "mt-0 min-h-0"
+          isOpen ? "mt-6 min-h-[100px] sm:min-h-[80px]" : "mt-0 min-h-0"
         }`}
       >
-        <p className="section-text text-[14px]">{answer}</p>
+        <p className="section-text text-[14px] sm:text-[16px] xl:max-w-3xl">
+          {answer}
+        </p>
       </div>
     </div>
   );

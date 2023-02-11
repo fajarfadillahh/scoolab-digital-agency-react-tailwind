@@ -9,15 +9,15 @@ import Accordion from "../../components/Accordion";
 const Faq = () => {
   return (
     <section className="section relative">
-      <div className="container grid gap-12">
-        <div className="text-center">
+      <div className="container grid justify-items-center gap-12 2xl:max-w-6xl">
+        <div className="text-center sm:max-w-lg">
           <p className="section-subtitle">Quick answer</p>
           <h1 className="section-title pb-0">
             Frequently asked question<span className="text-blue-600">.</span>
           </h1>
         </div>
 
-        <div className="grid gap-8">
+        <div className="grid gap-8 sm:max-w-xl xl:max-w-4xl 2xl:max-w-full">
           {AccordionData.map((accordion, index) => {
             // destructure accordion
             const { question, answer } = accordion;

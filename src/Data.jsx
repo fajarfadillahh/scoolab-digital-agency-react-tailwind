@@ -229,7 +229,7 @@ export const PlanList = [
   {
     grade: "Basic",
     price: "19$",
-    text: "For most business that want to optimize web queries.",
+    description: "For most business that want to optimize web queries.",
     list: [
       { name: "All limited links." },
       { name: "Own analytics platform." },
@@ -241,7 +241,7 @@ export const PlanList = [
   {
     grade: "Popular",
     price: "39$",
-    text: "For most business that want to optimize web queries.",
+    description: "For most business that want to optimize web queries.",
     list: [
       { name: "All limited links." },
       { name: "Own analytics platform." },
@@ -253,7 +253,7 @@ export const PlanList = [
   {
     grade: "Premium",
     price: "199$",
-    text: "For most business that want to optimize web queries.",
+    description: "For most business that want to optimize web queries.",
     list: [
       { name: "All limited links." },
       { name: "Own analytics platform." },

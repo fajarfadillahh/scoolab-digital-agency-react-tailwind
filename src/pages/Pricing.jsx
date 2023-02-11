@@ -9,6 +9,7 @@ import ScrollToTop from "../components/ScrollToTop";
 
 // import parts
 import Hero from "../parts/Pricing/Hero";
+import Plans from "../parts/Pricing/Plans";
 
 const Pricing = () => {
   return (
@@ -16,6 +17,7 @@ const Pricing = () => {
       <div className="-z-50 mx-auto max-w-[1440px] overflow-hidden bg-gray-900">
         <Header />
         <Hero />
+        <Plans />
         <Subscribe />
         <Footer />
         <ScrollUp />

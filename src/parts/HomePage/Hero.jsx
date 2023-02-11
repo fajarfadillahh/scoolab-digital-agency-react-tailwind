@@ -19,7 +19,7 @@ const Hero = () => {
             <br />
             <span className="relative">
               digital
-              <div className="absolute bottom-3 left-0 -z-10 h-3 w-full rounded-full bg-blue-600" />
+              <div className="absolute bottom-3 left-0 -z-10 h-3 w-full rounded-full bg-blue-600 2xl:bottom-5 2xl:h-5" />
             </span>{" "}
             products
             <br />

@@ -33,8 +33,8 @@ export const HeaderLink = [
     path: "/our-services",
   },
   {
-    title: "Our projects",
-    path: "/our-projects",
+    title: "About us",
+    path: "/about-us",
   },
   {
     title: "Pricing",

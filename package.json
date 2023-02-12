@@ -20,6 +20,7 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.2",
+    "react-collapse": "^5.1.1",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
     "swiper": "^9.0.3",

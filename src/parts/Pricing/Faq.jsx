@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // import accordion data
 import { AccordionData } from "../../Data";
@@ -7,6 +7,16 @@ import { AccordionData } from "../../Data";
 import Accordion from "../../components/Accordion";
 
 const Faq = () => {
+  const [open, setOpen] = useState(false);
+
+  const toggle = (index) => {
+    if (open === index) {
+      return setOpen(null);
+    }
+
+    setOpen(index);
+  };
+
   return (
     <section className="section relative">
       <div className="container grid justify-items-center gap-12 2xl:max-w-6xl">
@@ -23,7 +33,13 @@ const Faq = () => {
             const { question, answer } = accordion;
 
             return (
-              <Accordion key={index} question={question} answer={answer} />
+              <Accordion
+                key={index}
+                question={question}
+                answer={answer}
+                open={index === open}
+                toggle={() => toggle(index)}
+              />
             );
           })}
         </div>

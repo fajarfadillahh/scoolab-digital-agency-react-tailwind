@@ -10,3 +10,8 @@
 ::-webkit-scrollbar-thumb {
   @apply rounded-full bg-gray-800 hover:bg-blue-700;
 }
+
+/* transition react-collapse */
+.ReactCollapse--collapse {
+  transition: height 400ms;
+}

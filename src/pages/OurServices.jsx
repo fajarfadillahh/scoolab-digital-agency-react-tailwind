@@ -20,7 +20,6 @@ const OurServices = () => {
         <Header />
         <Hero />
         <Capabilities />
-        <Experienced />
         <Testimonial />
         <Subscribe />
         <Footer />

@@ -8,9 +8,9 @@ import ScrollUp from "../components/ScrollUp";
 import ScrollToTop from "../components/ScrollToTop";
 
 // import parts
-import Hero from "../parts/Pricing/Hero";
-import Plans from "../parts/Pricing/Plans";
-import Faq from "../parts/Pricing/Faq";
+import Hero from "../parts/PricingPage/Hero";
+import Plans from "../parts/PricingPage/Plans";
+import Faq from "../parts/PricingPage/Faq";
 
 const Pricing = () => {
   return (

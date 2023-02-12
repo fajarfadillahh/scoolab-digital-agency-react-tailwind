@@ -10,8 +10,8 @@ import ScrollUp from "../components/ScrollUp";
 import ScrollToTop from "../components/ScrollToTop";
 
 // import parts
-import Hero from "../parts/OurServices/Hero";
-import Capabilities from "../parts/OurServices/Capabilities";
+import Hero from "../parts/OurServicesPage/Hero";
+import Capabilities from "../parts/OurServicesPage/Capabilities";
 
 const OurServices = () => {
   return (

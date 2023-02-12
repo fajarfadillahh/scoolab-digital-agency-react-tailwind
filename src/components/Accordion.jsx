@@ -8,7 +8,7 @@ const Accordion = ({ open, toggle, question, answer }) => {
       className="cursor-pointer rounded-[1.2rem] border-[1.5px] border-white/50 p-6"
       onClick={toggle}
     >
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex items-center justify-between gap-4 2xl:gap-12">
         <h3 className="font-title text-[18px] font-semibold text-white sm:text-[24px] xl:text-[30px]">
           {question}
         </h3>

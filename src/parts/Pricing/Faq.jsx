@@ -19,7 +19,10 @@ const Faq = () => {
 
   return (
     <section className="section relative">
-      <div className="container grid justify-items-center gap-12 2xl:max-w-6xl">
+      {/* gradient */}
+      <div className="absolute top-1/2 -left-[150px] h-[400px] w-[400px] rounded-full bg-gradient-to-t from-green-500 to-yellow-300 blur-[130px] 2xl:-bottom-[30px]" />
+
+      <div className="container relative grid justify-items-center gap-12 2xl:max-w-6xl">
         <div className="text-center sm:max-w-lg">
           <p className="section-subtitle">Quick answer</p>
           <h1 className="section-title pb-0">

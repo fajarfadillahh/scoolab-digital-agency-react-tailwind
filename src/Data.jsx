@@ -9,6 +9,10 @@ import TeamImg1 from "./assets/images/team-img-1.png";
 import TeamImg2 from "./assets/images/team-img-2.png";
 import TeamImg3 from "./assets/images/team-img-3.png";
 import TeamImg4 from "./assets/images/team-img-4.png";
+import TeamImg5 from "./assets/images/team-img-5.png";
+import TeamImg6 from "./assets/images/team-img-6.png";
+import TeamImg7 from "./assets/images/team-img-7.png";
+import TeamImg8 from "./assets/images/team-img-8.png";
 import TestimonialProfile1 from "./assets/images/testimonial-profile-1.png";
 import TestimonialProfile2 from "./assets/images/testimonial-profile-2.png";
 
@@ -140,6 +144,26 @@ export const TeamData = [
     image: TeamImg4,
     name: "Bella William",
     profession: "UI/UX Designer",
+  },
+  {
+    image: TeamImg5,
+    name: "Nico Maliq",
+    profession: "UI/UX Designer",
+  },
+  {
+    image: TeamImg6,
+    name: "Anna Scott",
+    profession: "Frontend Developer",
+  },
+  {
+    image: TeamImg7,
+    name: "Kelly Smith",
+    profession: "Product Designer",
+  },
+  {
+    image: TeamImg8,
+    name: "Megan Fox",
+    profession: "Graphic Designer",
   },
 ];
 

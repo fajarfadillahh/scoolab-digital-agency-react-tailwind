@@ -29,7 +29,7 @@ const Team = () => {
 
         {/* team group */}
         <div className="grid justify-center gap-8 sm:grid-cols-[repeat(2,max-content)] xl:grid-cols-[repeat(3,max-content)] 2xl:grid-cols-[repeat(4,max-content)]">
-          {TeamData.map((item, index) => {
+          {TeamData.slice(0, 4).map((item, index) => {
             // destructure item
             const { image, name, profession } = item;
 

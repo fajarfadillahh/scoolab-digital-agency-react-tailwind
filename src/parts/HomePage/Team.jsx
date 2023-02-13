@@ -4,7 +4,7 @@ import React from "react";
 import { TeamData } from "../../Data";
 
 // import team card
-import TeamCard from "./TeamCard";
+import TeamCard from "../../components/TeamCard";
 
 // import icon
 import TeamIcon from "../../assets/images/icons/icon-color-palette.png";

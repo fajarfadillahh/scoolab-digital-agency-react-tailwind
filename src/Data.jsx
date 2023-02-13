@@ -22,6 +22,12 @@ import ServiceIcon1 from "./assets/images/icons/service-icon-1.png";
 import ServiceIcon2 from "./assets/images/icons/service-icon-2.png";
 import ServiceIcon3 from "./assets/images/icons/service-icon-3.png";
 import ServiceIcon4 from "./assets/images/icons/service-icon-4.png";
+import TechImg1 from "./assets/images/icons/tech-icon-1.png";
+import TechImg2 from "./assets/images/icons/tech-icon-2.png";
+import TechImg3 from "./assets/images/icons/tech-icon-3.png";
+import TechImg4 from "./assets/images/icons/tech-icon-4.png";
+import TechImg5 from "./assets/images/icons/tech-icon-5.png";
+import TechImg6 from "./assets/images/icons/tech-icon-6.png";
 
 export const HeaderLink = [
   {
@@ -99,6 +105,7 @@ export const PortfolioData = [
     title: "Portfolio Deck",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+    technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
     id: 2,
@@ -107,6 +114,7 @@ export const PortfolioData = [
     title: "Pegasus Design System",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+    technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
     id: 3,
@@ -115,6 +123,7 @@ export const PortfolioData = [
     title: "Food Delivery App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+    technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
     id: 4,
@@ -123,6 +132,7 @@ export const PortfolioData = [
     title: "IOS 15 UI Kit",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+    technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
     id: 5,
@@ -131,6 +141,7 @@ export const PortfolioData = [
     title: "Coolicons Iconset",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+    technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
     id: 6,
@@ -139,6 +150,7 @@ export const PortfolioData = [
     title: "Mental Health App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+    technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
 ];
 

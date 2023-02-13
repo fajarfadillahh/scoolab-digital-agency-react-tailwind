@@ -226,6 +226,59 @@ export const TestimonialData = [
   },
 ];
 
+export const FooterData = [
+  {
+    title: "About us",
+    links: [
+      {
+        name: "About us",
+        path: "/about-us",
+      },
+      {
+        name: "Our team",
+        path: "/our-team",
+      },
+      {
+        name: "Our services",
+        path: "/our-services",
+      },
+      {
+        name: "News",
+        path: "/news",
+      },
+      {
+        name: "What we do",
+        path: "/what-we-do",
+      },
+    ],
+  },
+  {
+    title: "Uses case",
+    links: [
+      {
+        name: "Marketing",
+        path: "/marketing",
+      },
+      {
+        name: "Social media",
+        path: "/social-media",
+      },
+      {
+        name: "Publisher",
+        path: "/publisher",
+      },
+      {
+        name: "Agencies",
+        path: "/agencies",
+      },
+      {
+        name: "Affiliate",
+        path: "/affiliate",
+      },
+    ],
+  },
+];
+
 export const CapabilitiesData = [
   {
     subtitle: "Strategy",

@@ -8,12 +8,15 @@ import {
 } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
+// import footer data
+import { FooterData } from "../Data";
+
 const Footer = () => {
   return (
     <footer className="pt-24">
       <div className="bg-gray-800 pt-24 pb-8">
         <div className="container grid gap-32 2xl:max-w-6xl">
-          <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:justify-between">
+          <div className="grid gap-12">
             <div>
               <h1 className="pb-3 font-title text-[28px] font-semibold text-white">
                 ScooLab<span className="text-blue-600">.</span>
@@ -24,52 +27,37 @@ const Footer = () => {
               </p>
             </div>
 
-            <div>
-              <h1 className="pb-3 font-title text-[28px] font-semibold text-white">
-                About Us<span className="text-blue-600">.</span>
-              </h1>
+            <div className="grid gap-12">
+              {FooterData.map((item, index) => {
+                // destructure item
+                const { title, links } = item;
+                return (
+                  <div key={index}>
+                    <h3 className="pb-3 font-title text-[28px] font-semibold text-white">
+                      {title}
+                      <span className="text-blue-600">.</span>
+                    </h3>
 
-              <ul className="flex flex-col gap-3">
-                {[
-                  ["About us", "about-us"],
-                  ["Our team", "our-team"],
-                  ["Services", "services"],
-                  ["News", "news"],
-                  ["What we do", "what-we-do"],
-                ].map(([title, url]) => (
-                  <Link
-                    key={url}
-                    to={url}
-                    className="max-w-max text-white hover:text-blue-600 hover:underline"
-                  >
-                    {title}
-                  </Link>
-                ))}
-              </ul>
-            </div>
+                    <ul className="flex flex-col gap-3">
+                      {links.map((link, index) => {
+                        // destructure link
+                        const { name, path } = link;
 
-            <div>
-              <h1 className="pb-3 font-title text-[28px] font-semibold text-white">
-                Uses Case<span className="text-blue-600">.</span>
-              </h1>
-
-              <ul className="flex flex-col gap-3">
-                {[
-                  ["Marketing", "marketing"],
-                  ["Social media", "social-media"],
-                  ["Publishers", "publishers"],
-                  ["Agencies", "agencies"],
-                  ["Affiliate", "affiliate"],
-                ].map(([title, url]) => (
-                  <Link
-                    key={url}
-                    to={url}
-                    className="max-w-max text-white hover:text-blue-600 hover:underline"
-                  >
-                    {title}
-                  </Link>
-                ))}
-              </ul>
+                        return (
+                          <li key={index}>
+                            <Link
+                              to={path}
+                              className="font-medium text-white hover:text-blue-600 hover:underline"
+                            >
+                              {name}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                );
+              })}
             </div>
 
             <div>

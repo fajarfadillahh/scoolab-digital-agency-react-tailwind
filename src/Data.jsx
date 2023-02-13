@@ -93,34 +93,52 @@ export const ExperienceData = [
 
 export const PortfolioData = [
   {
+    id: 1,
     image: PortfolioImg1,
     subtitle: "Design Kit",
     title: "Portfolio Deck",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
   },
   {
+    id: 2,
     image: PortfolioImg2,
     subtitle: "Design System",
     title: "Pegasus Design System",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
   },
   {
+    id: 3,
     image: PortfolioImg3,
     subtitle: "Mobile App Design",
     title: "Food Delivery App",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
   },
   {
+    id: 4,
     image: PortfolioImg4,
     subtitle: "UI Kit Design",
     title: "IOS 15 UI Kit",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
   },
   {
+    id: 5,
     image: PortfolioImg5,
     subtitle: "Icon Design",
     title: "Coolicons Iconset",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
   },
   {
+    id: 6,
     image: PortfolioImg6,
     subtitle: "Mobile App Design",
     title: "Mental Health App",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
   },
 ];
 

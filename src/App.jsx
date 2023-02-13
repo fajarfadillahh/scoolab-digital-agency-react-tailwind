@@ -8,6 +8,7 @@ import OurServices from "./pages/OurServices";
 import Pricing from "./pages/Pricing";
 import AboutUs from "./pages/AboutUs";
 import OurTeam from "./pages/OurTeam";
+import PortfolioDetails from "./pages/PortfolioDetails";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/our-team" element={<OurTeam />} />
+        <Route path="/portfolio/:id" element={<PortfolioDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

@@ -38,18 +38,9 @@ const Portfolio = () => {
 
         {/* portfolio group */}
         <div className="grid justify-center gap-8 lg:mx-auto lg:max-w-4xl lg:grid-cols-2 2xl:max-w-max">
-          {PortfolioData.map((item, index) => {
+          {PortfolioData.map((portfolio, index) => {
             // destructure item
-            const { image, subtitle, title } = item;
-
-            return (
-              <PortfolioCard
-                key={index}
-                image={image}
-                subtitle={subtitle}
-                title={title}
-              />
-            );
+            return <PortfolioCard key={index} portfolio={portfolio} />;
           })}
         </div>
       </div>

@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="pt-24">
       <div className="bg-gray-800 pt-24 pb-8">
         <div className="container grid gap-32 2xl:max-w-6xl">
-          <div className="grid gap-12">
+          <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div>
               <h1 className="pb-3 font-title text-[28px] font-semibold text-white">
                 ScooLab<span className="text-blue-600">.</span>
@@ -27,7 +27,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="grid gap-12">
+            <div className="grid gap-12 sm:order-3 sm:col-span-2 sm:grid-cols-2 md:order-[0] lg:justify-items-center">
               {FooterData.map((item, index) => {
                 // destructure item
                 const { title, links } = item;

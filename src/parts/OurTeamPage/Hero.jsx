@@ -9,6 +9,9 @@ import TeamCard from "../../components/TeamCard";
 const Hero = () => {
   return (
     <div className="section relative pt-40">
+      {/* gradient */}
+      <div className="absolute -top-[100px] -left-[250px] h-[500px] w-[500px] rounded-full bg-gradient-to-t from-pink-400 to-blue-400 blur-[130px] 2xl:-top-[50px] 2xl:h-[600px] 2xl:w-[600px]" />
+
       <div className="container grid justify-center gap-32">
         <div className="text-center">
           <h1 className="section-title xs:text-[64px] lg:text-[72px]">

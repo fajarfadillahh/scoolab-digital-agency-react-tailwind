@@ -18,6 +18,9 @@ const Details = () => {
 
   return (
     <section className="section relative pt-40">
+      {/* gradient */}
+      <div className="absolute -top-[100px] -left-[250px] h-[500px] w-[500px] rounded-full bg-gradient-to-t from-pink-400 to-blue-400 blur-[130px] 2xl:-top-[50px] 2xl:h-[600px] 2xl:w-[600px]" />
+
       <div className="container relative grid justify-items-center gap-24 2xl:max-w-4xl">
         <div className="text-center xs:max-w-md sm:max-w-xl lg:max-w-3xl 2xl:max-w-full">
           <p className="section-subtitle">{subtitle}</p>

@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { RiArrowRightCircleLine } from "react-icons/ri";
 
-// import portfolio data
-import { PortfolioData } from "../Data";
-
-// import portfolio card
+// import portfolio context & card
+import { PortfolioContext } from "../context/PortfolioContext";
 import PortfolioCard from "./PortfolioCard";
 
 // import icon
 import PortfolioIcon from "../assets/images/icons/icon-web-design.png";
 
 const Portfolio = () => {
+  const { portfolios } = useContext(PortfolioContext);
+
   return (
     <section className="section relative">
       {/* gradient */}
@@ -38,8 +38,7 @@ const Portfolio = () => {
 
         {/* portfolio group */}
         <div className="grid justify-center gap-8 lg:mx-auto lg:max-w-4xl lg:grid-cols-2 2xl:max-w-max">
-          {PortfolioData.map((portfolio, index) => {
-            // destructure item
+          {portfolios.map((portfolio, index) => {
             return <PortfolioCard key={index} portfolio={portfolio} />;
           })}
         </div>

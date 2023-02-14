@@ -104,7 +104,7 @@ export const PortfolioData = [
     subtitle: "Design Kit",
     title: "Portfolio Deck",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat quas itaque non sunt in laboriosam nulla cumque a deserunt nihil, modi suscipit cum! Aspernatur earum itaque illum illo quasi, nobis nam minima necessitatibus ab minus cumque omnis optio commodi vero nemo doloremque impedit suscipit.",
     technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
@@ -113,7 +113,7 @@ export const PortfolioData = [
     subtitle: "Design System",
     title: "Pegasus Design System",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat quas itaque non sunt in laboriosam nulla cumque a deserunt nihil, modi suscipit cum! Aspernatur earum itaque illum illo quasi, nobis nam minima necessitatibus ab minus cumque omnis optio commodi vero nemo doloremque impedit suscipit.",
     technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
@@ -122,7 +122,7 @@ export const PortfolioData = [
     subtitle: "Mobile App Design",
     title: "Food Delivery App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat quas itaque non sunt in laboriosam nulla cumque a deserunt nihil, modi suscipit cum! Aspernatur earum itaque illum illo quasi, nobis nam minima necessitatibus ab minus cumque omnis optio commodi vero nemo doloremque impedit suscipit.",
     technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
@@ -131,7 +131,7 @@ export const PortfolioData = [
     subtitle: "UI Kit Design",
     title: "IOS 15 UI Kit",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat quas itaque non sunt in laboriosam nulla cumque a deserunt nihil, modi suscipit cum! Aspernatur earum itaque illum illo quasi, nobis nam minima necessitatibus ab minus cumque omnis optio commodi vero nemo doloremque impedit suscipit.",
     technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
@@ -140,7 +140,7 @@ export const PortfolioData = [
     subtitle: "Icon Design",
     title: "Coolicons Iconset",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat quas itaque non sunt in laboriosam nulla cumque a deserunt nihil, modi suscipit cum! Aspernatur earum itaque illum illo quasi, nobis nam minima necessitatibus ab minus cumque omnis optio commodi vero nemo doloremque impedit suscipit.",
     technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
   {
@@ -149,7 +149,7 @@ export const PortfolioData = [
     subtitle: "Mobile App Design",
     title: "Mental Health App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laborum voluptas odit corporis, quo eius illum delectus iste hic iusto natus alias dolores molestias, nisi perferendis recusandae tempora provident.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat quas itaque non sunt in laboriosam nulla cumque a deserunt nihil, modi suscipit cum! Aspernatur earum itaque illum illo quasi, nobis nam minima necessitatibus ab minus cumque omnis optio commodi vero nemo doloremque impedit suscipit.",
     technologies: [TechImg1, TechImg2, TechImg3, TechImg4, TechImg5, TechImg6],
   },
 ];

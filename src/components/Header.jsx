@@ -26,7 +26,7 @@ const Header = () => {
         stickyHeader ? "bg-gray-900/80 backdrop-blur-lg" : "bg-transparent"
       }`}
     >
-      <div className="container flex h-24 items-center justify-between">
+      <div className="container flex h-24 items-center justify-between 2xl:relative">
         <Link
           to="/"
           className="font-title text-[20px] font-semibold text-white"
@@ -35,19 +35,19 @@ const Header = () => {
         </Link>
 
         <div
-          className={`fixed top-20 right-[6%] w-[230px] origin-top-right rounded-[2rem] bg-gray-800 p-6 transition-all duration-400 lg:static lg:top-0 lg:left-0 lg:flex lg:w-auto lg:scale-110 lg:items-center lg:gap-6 lg:bg-transparent lg:p-0  ${
-            menuOpen ? "scale-110" : "scale-0"
+          className={`fixed top-20 right-[6%] w-[260px] origin-top-right rounded-[2rem] bg-gray-800 py-8 px-6 transition-all duration-400 lg:static lg:inset-0 lg:flex lg:w-auto lg:scale-[auto] lg:items-center lg:gap-8 lg:bg-transparent lg:p-0 ${
+            menuOpen ? "scale-100" : "scale-0"
           }`}
         >
-          <ul className="mb-6 flex flex-col lg:mb-0 lg:flex-row lg:gap-6">
-            {HeaderLink.map((item, index) => {
+          <ul className="mb-6 flex flex-col lg:mb-0 lg:flex-row lg:gap-6 2xl:absolute 2xl:left-[50%] 2xl:-translate-x-[50%] 2xl:gap-8">
+            {HeaderLink.map((link, index) => {
               return (
                 <Link
                   key={index}
-                  to={item.path}
-                  className="flex h-[55px] items-center rounded-full px-4 font-medium text-white hover:bg-gray-700 lg:h-auto lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-600"
+                  to={link.path}
+                  className="flex h-[55px] items-center rounded-full px-4 text-white hover:bg-gray-700 lg:h-auto lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-600"
                 >
-                  {item.title}
+                  {link.title}
                 </Link>
               );
             })}
@@ -59,7 +59,7 @@ const Header = () => {
         </div>
 
         <div
-          className="inline-flex cursor-pointer p-1 text-[1.3rem] text-white lg:hidden"
+          className="z-50 inline-flex cursor-pointer p-1 text-[1.3rem] text-white lg:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <RiCloseFill /> : <RiMenu3Fill />}
